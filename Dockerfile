@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/azure-cli
+FROM mcr.microsoft.com/azure-cli:2.18.0
 
 LABEL "com.github.actions.name"="azure-blob-storage-upload"
 LABEL "com.github.actions.description"="Uploads assets to Azure Blob Storage"
