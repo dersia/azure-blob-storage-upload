@@ -25,4 +25,4 @@ if [ -z "$INPUT_SYNC" ]; then
   VERB="sync"
   CONTAINER_NAME_FLAG="--container"
 fi
-az storage blob ${VERB} --debug --connection-string ${INPUT_CONNECTION_STRING} --source ${INPUT_SOURCE_DIR} ${CONTAINER_NAME_FLAG} ${INPUT_CONTAINER_NAME} ${EXTRA_ARGS}
+az storage blob ${VERB} --connection-string ${INPUT_CONNECTION_STRING} --source ${INPUT_SOURCE_DIR} ${CONTAINER_NAME_FLAG} ${INPUT_CONTAINER_NAME} --auth-mode key ${EXTRA_ARGS} --debug
