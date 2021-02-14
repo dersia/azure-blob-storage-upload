@@ -1,5 +1,6 @@
 name: "Azure Blob Storage Upload"
 author: "Matthew Fisher <matt.fisher@microsoft.com>"
+author: "Sia Ghassemi <info@dersia.org>"
 description: "Uploads assets to Azure Blob Storage"
 branding:
   icon: "box"
